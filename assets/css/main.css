@@ -17,6 +17,7 @@
   --nav-font: "Poppins",  sans-serif;
 }
 
+
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
@@ -1079,11 +1080,15 @@ section,
   transition: 0.3s;
 }
 
+
+
+
 @media (max-width: 640px) {
   .clients .client-logo img {
     padding: 30px;
     max-width: 50%;
   }
+
 }
 
 .clients .client-logo:hover img {
@@ -1777,6 +1782,20 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+
+
+.zap2{
+  position: absolute;
+  width: 5%;
+  left: 96%;
+  top: 1450%;
+}
+
+@media only screen and (max-width: 768px) {
+  .zap2 {
+    width: 15%;
+      top: 1800%;
+      left: 68%;
+  }
 }
